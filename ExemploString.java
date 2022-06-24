@@ -28,6 +28,9 @@ public class ExemploString {
 		System.out.println(nome.indexOf("s"));
 		
 		// concatenação
-		System.out.println(nome + " " + sobrenome);
+		System.out.println(nome + "\n" + sobrenome);
+		
+		// método concat
+		System.out.println("O nome e sobrenome é: " + nome.concat(" " + sobrenome));
 	}
 }
